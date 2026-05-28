@@ -9,7 +9,7 @@ except ImportError as error: # Colored error message with ANSI codes
 
 def main(): 
     # Set the path to the SQLite database
-    db_path = "YOUR/PATH/HERE/MovieDude.db"
+    db_path = "database/MovieDude.db"
     user_id = login(db_path)
     
     # Features for controlling engine options
